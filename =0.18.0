@@ -1,0 +1,36 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting scikit-survival
+  Downloading scikit_survival-0.24.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (48 kB)
+Collecting ecos (from scikit-survival)
+  Downloading ecos-2.0.14-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (8.0 kB)
+Requirement already satisfied: joblib in /opt/anaconda3/lib/python3.12/site-packages (from scikit-survival) (1.4.2)
+Requirement already satisfied: numexpr in /opt/anaconda3/lib/python3.12/site-packages (from scikit-survival) (2.8.7)
+Requirement already satisfied: numpy in /home/ryu11/.local/lib/python3.12/site-packages (from scikit-survival) (1.26.4)
+Collecting osqp<1.0.0,>=0.6.3 (from scikit-survival)
+  Downloading osqp-0.6.7.post3-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.9 kB)
+Requirement already satisfied: pandas>=1.4.0 in /home/ryu11/.local/lib/python3.12/site-packages (from scikit-survival) (2.3.1)
+Requirement already satisfied: scipy>=1.3.2 in /opt/anaconda3/lib/python3.12/site-packages (from scikit-survival) (1.13.1)
+Collecting scikit-learn<1.7,>=1.6.1 (from scikit-survival)
+  Downloading scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (18 kB)
+Collecting qdldl (from osqp<1.0.0,>=0.6.3->scikit-survival)
+  Downloading qdldl-0.1.7.post5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.7 kB)
+Requirement already satisfied: threadpoolctl>=3.1.0 in /opt/anaconda3/lib/python3.12/site-packages (from scikit-learn<1.7,>=1.6.1->scikit-survival) (3.5.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/anaconda3/lib/python3.12/site-packages (from pandas>=1.4.0->scikit-survival) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /opt/anaconda3/lib/python3.12/site-packages (from pandas>=1.4.0->scikit-survival) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in /opt/anaconda3/lib/python3.12/site-packages (from pandas>=1.4.0->scikit-survival) (2023.3)
+Requirement already satisfied: six>=1.5 in /opt/anaconda3/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas>=1.4.0->scikit-survival) (1.16.0)
+Downloading scikit_survival-0.24.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 38.1 MB/s eta 0:00:00
+Downloading osqp-0.6.7.post3-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (300 kB)
+Downloading scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.1/13.1 MB 90.0 MB/s eta 0:00:00
+Downloading ecos-2.0.14-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (222 kB)
+Downloading qdldl-0.1.7.post5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 85.2 MB/s eta 0:00:00
+Installing collected packages: scikit-learn, qdldl, ecos, osqp, scikit-survival
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 1.7.0
+    Uninstalling scikit-learn-1.7.0:
+      Successfully uninstalled scikit-learn-1.7.0
+
+Successfully installed ecos-2.0.14 osqp-0.6.7.post3 qdldl-0.1.7.post5 scikit-learn-1.6.1 scikit-survival-0.24.1

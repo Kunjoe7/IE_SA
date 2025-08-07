@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include icdm_sa/datasets *.csv
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude .DS_Store

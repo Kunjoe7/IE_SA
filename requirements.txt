@@ -1,0 +1,11 @@
+torch>=1.9.0
+numpy>=1.19.0
+pandas>=1.3.0
+scikit-learn>=0.24.0
+scikit-survival>=0.18.0
+matplotlib>=3.3.0
+seaborn>=0.11.0
+tqdm>=4.62.0
+easydict>=1.9
+lifelines>=0.27.0
+scipy>=1.7.0
