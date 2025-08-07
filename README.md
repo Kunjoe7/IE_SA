@@ -16,7 +16,7 @@ This repository contains the ICDM-SA package for Interactive and Explainable Sur
 
 ```bash
 git clone https://github.com/Kingmaoqin/ICDM-SA.git
-cd ICDM-SA
+cd IE_SA
 pip install -e .
 ```
 
