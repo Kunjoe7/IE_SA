@@ -8,7 +8,7 @@ git clone https://github.com/Kingmaoqin/ICDM-SA.git
 cd ICDM-SA
 
 # Install the package in development mode
-pip install -e .
+pip install -e 
 ```
 
 ## Basic Usage
